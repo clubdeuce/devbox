@@ -1,5 +1,16 @@
 # Devbox
 
+## Features
+
+A local development environment designed to make WordPress development easy:
+
+|Package|Version|
+|---|---|
+|Nginx|`1.17`|
+|PHP-FPM|`7.3`|
+|MySQL|`5.6`|
+|Redis|`5.0`|
+
 ## Local Development
 
 This project supports local development through a number of different means:

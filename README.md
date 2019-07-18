@@ -10,6 +10,9 @@ A local development environment designed to make WordPress development easy:
 |PHP-FPM|`7.3`|
 |MySQL|`5.6`|
 |Redis|`5.0`|
+|Xdebug|`2.7`|
+
+This box supports debugging via Xdebug, and includes a configuration for VSCode.
 
 ## Local Development
 

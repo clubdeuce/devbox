@@ -1,0 +1,16 @@
+/.vagrant/
+/node_modules/
+
+/www/*
+!/www/index.php
+!/www/wp-config.php
+!/www/wp-config-local-sample.php
+!/www/content
+/www/content/*
+
+/sql/
+!/sql/default.sql
+
+# Devbox specific files
+HOSTNAME
+IP

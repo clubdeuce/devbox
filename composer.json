@@ -1,0 +1,49 @@
+{
+    "name": "clubdeuce/devbox",
+    "description": "A Local Development Environment",
+    "license": "GPL-2.0+",
+    "type": "project",
+    "authors": [
+      {
+        "name": "Clubdeuce",
+        "email": "daryl@clubdeuce.com",
+        "homepage": "https://github.com/clubdeuce"
+      }
+    ],
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://wpackagist.org"
+      }
+    ],
+    "require-dev": {
+      "johnpbloch/wordpress-core-installer": "~0.1",
+      "johnpbloch/wordpress-core": "*",
+      "wpackagist-theme/twentynineteen": "*",
+      "wpackagist-plugin/wp-redis": "*",
+      "wpackagist-plugin/query-monitor": "*",
+      "wpackagist-plugin/helpful-information": "*"
+    },
+    "require": {
+      "composer/installers": "dev-master"
+    },
+    "extra": {
+      "wordpress-install-dir": "www/wp",
+      "installer-paths": {
+        "www/content/mu-plugins/{$name}": [
+          "type:wordpress-library",
+          "type:wordpress-muplugin",
+          "wpackagist-plugin/wp-redis"
+        ],
+        "www/content/plugins/{$name}": [
+          "type:wordpress-plugin"
+        ],
+        "www/content/themes/{$name}": [
+          "type:wordpress-theme"
+        ]
+      }
+    },
+    "config": {
+      "vendor-dir": "www/content/vendor"
+    }
+  }

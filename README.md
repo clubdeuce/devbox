@@ -11,6 +11,8 @@ A local development environment designed to make WordPress development easy:
 |MySQL|`5.6`|
 |Redis|`5.0`|
 |Xdebug|`2.7`|
+|NodeJS|`10.16`|
+|NPM|`6.9`|
 
 This box supports debugging via Xdebug, and includes a configuration for VSCode.
 

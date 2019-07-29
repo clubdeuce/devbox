@@ -1,5 +1,6 @@
 /.vagrant/
 /node_modules/
+composer.lock
 
 /www/*
 !/www/index.php

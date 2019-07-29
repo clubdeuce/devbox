@@ -32,7 +32,7 @@ if ( ! defined( 'BOX_SCHEME' ) ) {
 }
 
 if ( ! defined( 'HOST_DOMAIN' ) ) {
-	define( HOST_DOMAIN, filter_input( INPUT_SERVER, 'HTTP_HOST', FILTER_SANITIZE_STRING) );
+	define( 'HOST_DOMAIN', filter_input( INPUT_SERVER, 'HTTP_HOST', FILTER_SANITIZE_STRING) );
 
 	define( 'WP_CONTENT_URL', BOX_SCHEME . '://' . HOST_DOMAIN . '/content' );
 	define( 'WP_SITEURL',  BOX_SCHEME . '://' . HOST_DOMAIN . '/wp' );

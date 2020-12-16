@@ -19,10 +19,9 @@
     "require-dev": {
       "johnpbloch/wordpress-core-installer": "~0.1",
       "johnpbloch/wordpress-core": "*",
-      "wpackagist-theme/twentynineteen": "*",
+      "wpackagist-theme/twentytwenty": "*",
       "wpackagist-plugin/wp-redis": "*",
-      "wpackagist-plugin/query-monitor": "*",
-      "wpackagist-plugin/helpful-information": "*"
+      "wpackagist-plugin/query-monitor": "*"
     },
     "require": {
       "composer/installers": "dev-master"

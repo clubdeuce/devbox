@@ -60,7 +60,7 @@ if( ! defined( 'DB_PASSWORD' ) ) {
 
 /** MySQL hostname */
 if( ! defined( 'DB_HOST' ) ) {
-	define( 'DB_HOST', 'db' );
+	define( 'DB_HOST', 'localhost' );
 }
 
 /** Database Charset to use in creating database tables. */
@@ -78,7 +78,7 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-if ( file_exists( __DIR_ . '/salt.php') ) {
+if ( file_exists( __DIR__ . '/salt.php') ) {
 	require_once ( __DIR__ . '/salt.php' );
 }  else {
 	define('AUTH_KEY',         '(kGO+,s^>-||~d@<D{UY!-A;u0j86w0/fSI/o#yJZ4}NWbAd<!45p7*gqZW@aFvK');
@@ -112,7 +112,7 @@ $table_prefix = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
 /* That's all, stop editing! Happy publishing. */
 
